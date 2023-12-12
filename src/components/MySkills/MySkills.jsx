@@ -14,7 +14,7 @@ const Skills = () => {
           <section className="bg-slate-300 space-y-3">
     <h3 className="section-title pb-4 pt-3">My Skills</h3>
     
-<div className="grid gap-3 md:grid-cols-4 max-w-4xl mx-auto">
+<div className="grid gap-3 grid-cols-3 md:grid-cols-4 max-w-4xl mx-auto">
     <div className='bg-white mx-auto rounded-lg'>
         
         <img className='font-extrabold h-20 w-20 p-2' src={react} alt="" />

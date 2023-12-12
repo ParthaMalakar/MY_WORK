@@ -1,5 +1,6 @@
 import React, { useRef, useState } from 'react';
 import emailjs from '@emailjs/browser';
+import Swal from 'sweetalert2';
 const ContractMe = () => {
     const [name, setName] = useState('');
     const [email, setEmail] = useState('');
@@ -11,6 +12,13 @@ const ContractMe = () => {
         emailjs.sendForm('service_73sfxtc', 'template_810trg3', form.current, 'Y56lw4c5cc5zv2Gcn')
           .then((result) => {
               console.log(result.text);
+              Swal.fire({
+                position: "top-end",
+                icon: "success",
+                title: "Email Send to Partha Malakar",
+                showConfirmButton: false,
+                timer: 1500
+              });
           }, (error) => {
               console.log(error.text);
           });
@@ -41,6 +49,7 @@ const ContractMe = () => {
             <input
               type="text"
               id="name"
+              required
               name="name"
               value={name} onChange={(e) => setName(e.target.value)}
               className="w-full border border-gray-300 rounded px-3 py-2"
@@ -55,6 +64,7 @@ const ContractMe = () => {
               type="email"
               id="email"
               name="email"
+              required
               value={email} onChange={(e) => setEmail(e.target.value)}
               className="w-full border border-gray-300 rounded px-3 py-2"
               placeholder="Your Email"
@@ -67,6 +77,7 @@ const ContractMe = () => {
             <textarea
               id="message"
               name="message"
+              required
               value={message} onChange={(e) => setMessage(e.target.value)}
               className="w-full border border-gray-300 rounded px-3 py-2"
               rows="5"

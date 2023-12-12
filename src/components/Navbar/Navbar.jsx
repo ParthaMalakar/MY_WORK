@@ -26,8 +26,8 @@ const Navbar = () => {
                         </ul>
                     </div>
                     <div className="md:flex justify-center items-center">
-                        <img className="h-14 md:ml-10 navbar-start " alt="" />
-                        <a className="  normal-case text-base md:text-2xl font-bold text-rose-500 md:ml-0  "><i>PARTHA_MALAKAR</i></a>
+                        
+                        <a className="  normal-case text-xl md:text-2xl font-bold text-rose-500 md:ml-0  "><i>PARTHA_MALAKAR</i></a>
 
                     </div>
                 </div>
@@ -38,7 +38,7 @@ const Navbar = () => {
                 </div>
                 <div className="navbar-end">
                    
-                <NavLink className="btn btn-success font-semibold text-lg" to="/about">HIRE ME</NavLink>
+                <NavLink className="btn btn-success font-semibold text-lg" to="/hire">HIRE ME</NavLink>
 
 
                 </div>

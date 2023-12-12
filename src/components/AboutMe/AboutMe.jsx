@@ -11,7 +11,7 @@ where I can leverage my quick learning abilities, strong work ethic, and profici
 technologies. I am eager to contribute my skills and take on responsibilities showcasing my commitment to
 delivering efficient, high-quality results. Committed to continuous learning and growth, I am ready to embark
 on a journey where I can apply my expertise and positively impact the team and organization.</p>
-<div className="about-info max-w-4xl mx-auto">
+<div className="md:flex md:justify-between max-w-4xl mx-auto">
     <div className="about-in">
         <h4 className="info-title">Name:</h4>
         <p className="info-description">Partha Malakar</p>

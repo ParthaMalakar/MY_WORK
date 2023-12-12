@@ -36,7 +36,7 @@ const Banner = () => {
                         </div>
                     </div>
                 </div> */}
-                <div className='flex gap-10'>
+                <div className='md:flex gap-10'>
                  <div className="max-w-[500px] mt-6 space-y-3">
         <h3 className="text-4xl text-white font-bold">Hi, I  am Partha Malakar</h3>
         <h2 className='text-2xl font-semibold text-white'>MERN Stack developer</h2>
@@ -45,7 +45,7 @@ const Banner = () => {
     <button className="btn"> <a href="/Partha Malakar(Resume_).pdf" download="">Download Resume</a> </button>
         </div>
         <div>
-        <img className='h-[300px] rounded-badge rounded-b-full rounded-l-2xl' src="https://i.ibb.co/VqgKz1m/Microsoft-Teams-image-1.jpg" alt="" />
+        <img className='h-[250px] ml-24 md:ml-0 mt-10 md:mt-0 md:h-[300px] md:rounded-badge md:rounded-b-full md:rounded-l-2xl' src="https://i.ibb.co/VqgKz1m/Microsoft-Teams-image-1.jpg" alt="" />
         </div>
         </div>
 </div>

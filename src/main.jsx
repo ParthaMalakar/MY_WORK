@@ -8,6 +8,7 @@ import Main from './components/RootPage/Main.jsx'
 import EducationSection from './components/Education/Education.jsx'
 import AboutMe from './components/AboutMe/AboutMe.jsx'
 import Portfolio from './components/Projects/Myproject.jsx'
+import ContractMe from './ContractMe/ContractMe.jsx'
 const router = createBrowserRouter([
   {
     path: "/",
@@ -27,7 +28,10 @@ const router = createBrowserRouter([
         path:"my",
         element:<Portfolio></Portfolio>
       }
-     
+     ,{
+      path:"hire",
+      element:<ContractMe></ContractMe>
+    }
     ],
   },
 ]);
