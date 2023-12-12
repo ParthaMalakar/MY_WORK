@@ -5,7 +5,7 @@ const Navbar = () => {
     const navLinks = <>
         <li><NavLink className="font-semibold text-lg" to="/">Home</NavLink></li>
 
-        <li><NavLink className="font-semibold text-lg" to="/allFoods">Education</NavLink></li>
+        <li><NavLink className="font-semibold text-lg" to="/edu">Education</NavLink></li>
         <li><NavLink className="font-semibold text-lg" to="/blog">Projects</NavLink></li>
         <li><NavLink className=" font-semibold text-lg" to="/about">About Me</NavLink></li>
         <li><a href="https://www.linkedin.com/in/partha-malakar-ba1350247/"><img className="h-10" src="https://i.ibb.co/SvVtBR4/download0.png" alt="" /></a></li>
