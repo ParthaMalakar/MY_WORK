@@ -7,6 +7,7 @@ import Home from './components/Home/Home.jsx'
 import Main from './components/RootPage/Main.jsx'
 import EducationSection from './components/Education/Education.jsx'
 import AboutMe from './components/AboutMe/AboutMe.jsx'
+import Portfolio from './components/Projects/Myproject.jsx'
 const router = createBrowserRouter([
   {
     path: "/",
@@ -22,6 +23,9 @@ const router = createBrowserRouter([
       },{
         path:"/about",
         element:<AboutMe></AboutMe>
+      },{
+        path:"my",
+        element:<Portfolio></Portfolio>
       }
      
     ],

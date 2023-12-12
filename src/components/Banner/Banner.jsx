@@ -45,7 +45,7 @@ const Banner = () => {
     <button className="btn"> <a href="/Partha Malakar(Resume_).pdf" download="">Download Resume</a> </button>
         </div>
         <div>
-        <img className='h-[300px] rounded-badge rounded-b-full rounded-l-2xl' src="https://i.ibb.co/jHWVSLm/pp.jpg" alt="" />
+        <img className='h-[300px] rounded-badge rounded-b-full rounded-l-2xl' src="https://i.ibb.co/VqgKz1m/Microsoft-Teams-image-1.jpg" alt="" />
         </div>
         </div>
 </div>

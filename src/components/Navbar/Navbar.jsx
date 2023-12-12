@@ -6,7 +6,7 @@ const Navbar = () => {
         <li><NavLink className="font-semibold text-lg" to="/">Home</NavLink></li>
 
         <li><NavLink className="font-semibold text-lg" to="/edu">Education</NavLink></li>
-        <li><NavLink className="font-semibold text-lg" to="/blog">Projects</NavLink></li>
+        <li><NavLink className="font-semibold text-lg" to="/my">Projects</NavLink></li>
         <li><NavLink className=" font-semibold text-lg" to="/about">About Me</NavLink></li>
         <li><a href="https://www.linkedin.com/in/partha-malakar-ba1350247/"><img className="h-10" src="https://i.ibb.co/SvVtBR4/download0.png" alt="" /></a></li>
         <li><a href="https://github.com/ParthaMalakar"><img className="h-10" src="https://i.ibb.co/8c1cNQ4/dow0nload.png" alt="" /></a></li>
